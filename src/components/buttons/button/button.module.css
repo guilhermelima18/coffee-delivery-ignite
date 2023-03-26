@@ -1,0 +1,16 @@
+.button {
+  background-color: var(--yellow-300);
+  width: 132px;
+  height: 46px;
+  border-radius: 6px;
+  padding: 12px 8px 12px 8px;
+  transition: 500ms;
+  color: var(--white-100);
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--yellow-700);
+}

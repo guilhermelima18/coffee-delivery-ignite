@@ -1,0 +1,18 @@
+.buttonDelete {
+  background-color: var(--gray-300);
+  width: 91px;
+  height: 32px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  padding: 0 8px;
+  transition: 500ms;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.buttonDelete:hover {
+  background-color: var(--gray-700);
+}
